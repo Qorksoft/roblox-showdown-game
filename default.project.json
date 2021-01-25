@@ -2,6 +2,26 @@
   "name": "showdown",
   "tree": {
     "$className": "DataModel",
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "Models": {
@@ -24,26 +44,6 @@
         "Client": {
           "$path": "src/client"
         }
-      }
-    },
-    "Workspace": {
-      "$className": "Workspace",
-      "$properties": {
-        "FilteringEnabled": true
-      }
-    },
-    "Lighting": {
-      "$className": "Lighting",
-      "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
-        "Brightness": 2,
-        "GlobalShadows": true,
-        "Outlines": false,
-        "Technology": "Voxel"
       }
     },
     "SoundService": {
