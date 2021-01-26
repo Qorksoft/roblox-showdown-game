@@ -64,18 +64,18 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>13.8496437</X>
-					<Y>9.28064346</Y>
-					<Z>-4.19435549</Z>
-					<R00>0.792299151</R00>
-					<R01>-0.182454675</R01>
-					<R02>0.582213461</R02>
-					<R10>1.49011612e-08</R10>
-					<R11>0.954240441</R11>
-					<R12>0.299040824</R12>
-					<R20>-0.610132933</R20>
-					<R21>-0.236929774</R21>
-					<R22>0.756043792</R22>
+					<X>12.3299809</X>
+					<Y>9.80672455</Y>
+					<Z>-4.09087372</Z>
+					<R00>0.976668477</R00>
+					<R01>0.120708518</R01>
+					<R02>-0.177618071</R02>
+					<R10>-0</R10>
+					<R11>0.8270818</R11>
+					<R12>0.562081456</R12>
+					<R20>0.214752719</R20>
+					<R21>-0.548967242</R21>
+					<R22>0.807784736</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
@@ -999,7 +999,7 @@ print(makeHello("main.client.ts"))
 					<ProtectedString name="Source"><![CDATA[-- Compiled with roblox-ts v1.0.0-beta.15
 local TS = require(game:GetService("ReplicatedStorage"):WaitForChild("rbxts_include"):WaitForChild("RuntimeLib"))
 local makeHello = TS.import(script, game:GetService("ReplicatedStorage"), "TS", "module").makeHello
-print(makeHello("main.server.ts") .. "from Jerum Hubbert does this compile?")
+print(makeHello("main.server.ts") .. "from Jerum Hubbert does this compile asdasd ?")
 ]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
