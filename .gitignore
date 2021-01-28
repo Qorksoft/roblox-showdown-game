@@ -1,5 +1,8 @@
-# Project place file
-/showdown.rbxlx
+/node_modules
+/out
+/include
+*.tsbuildinfo
+
 
 # Roblox Studio lock files
 /*.rbxlx.lock
@@ -48,4 +51,3 @@ luac.out
 
 # File System
 .DS_Store
-
